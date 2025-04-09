@@ -13,7 +13,7 @@ public class OnlinePurchaseManager
   {
     int total = 0;
     for(int i = 0; i < purchases.size(); i++) {
-      if(purchases.get(i).isElectronic() && purchases.get(i).equals(makes)) {
+      if(purchases.get(i).isElectronic() && purchases.get(i).equals(maker)) {
         total++;
       }
     }
